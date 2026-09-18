@@ -1,0 +1,20 @@
+----- Virtual Environment -----
+
+1. install venv
+python -m venv myvenv(.venv)
+
+2. Activate venv
+source myvenv/bin/activate -> for linux
+myvenv\Scripts\activate.bat -> for windows
+
+3. Deactivate venv
+deactivate
+
+
+
+----- How to run fastAPI backend -----
+
+uvicorn main:app --reload
+
+
+--> after run server in fastapi when go to in url and write /docs open auto generated document
